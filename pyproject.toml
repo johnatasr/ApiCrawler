@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ApiCrawler"
+version = "0.1.0"
+description = ""
+authors = ["Johnatas Rabelo <johnatasr@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.70.0"
+redis = "^3.5.3"
+selenium = "^4.1.0"
+uvicorn = "^0.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

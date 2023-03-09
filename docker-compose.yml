@@ -1,0 +1,22 @@
+version: '3.1'
+
+services:
+  redis:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
+    restart: always
+
+#  api:
+#    build:
+#      dockerfile: Dockerfile
+#      context: ./docker
+#    working_dir: /home/user/app
+#    volumes:
+#      - ./backend:/home/user/app
+#    ports:
+#      - "8000:8000"
+#    environment:
+#      IN_DOCKER: 1
+#    depends_on:
+#      - redis
